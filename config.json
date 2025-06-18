@@ -1,15 +1,25 @@
 {
-  "inbounds":[
-    {
-      "port":8080,
-      "protocol":"vmess",
-      "settings":{"clients":[{"id":"UUID-GANTI-DISI","alterId":0}]},
-      "streamSettings":{
-        "network":"ws",
-        "wsSettings":{"path":"/vmess"},
-        "security":"none"
+  "log": {
+    "loglevel": "none"
+  },
+  "inbounds": [{
+    "port": 10000,
+    "protocol": "trojan",
+    "settings": {
+      "clients": [
+        {
+          "password": "123456789abcdef"
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/trojan"
       }
     }
-  ],
-  "outbounds":[{"protocol":"freedom"}]
+  }],
+  "outbounds": [{
+    "protocol": "freedom"
+  }]
 }
