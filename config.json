@@ -42,7 +42,8 @@
               "certificateFile": "/etc/xray/cert.pem",
               "keyFile": "/etc/xray/key.pem"
             }
-          ]
+          ],
+          "serverName": "sshvpnbandung.vercel.app"
         },
         "wsSettings": {
           "path": "/vmess"
@@ -69,7 +70,8 @@
               "certificateFile": "/etc/xray/cert.pem",
               "keyFile": "/etc/xray/key.pem"
             }
-          ]
+          ],
+          "serverName": "sshvpnbandung.vercel.app"
         },
         "grpcSettings": {
           "serviceName": "vmess-grpc"
@@ -117,7 +119,8 @@
               "certificateFile": "/etc/xray/cert.pem",
               "keyFile": "/etc/xray/key.pem"
             }
-          ]
+          ],
+          "serverName": "sshvpnbandung.vercel.app"
         },
         "wsSettings": {
           "path": "/vless"
@@ -145,7 +148,8 @@
               "certificateFile": "/etc/xray/cert.pem",
               "keyFile": "/etc/xray/key.pem"
             }
-          ]
+          ],
+          "serverName": "sshvpnbandung.vercel.app"
         },
         "grpcSettings": {
           "serviceName": "vless-grpc"
@@ -186,7 +190,8 @@
               "certificateFile": "/etc/xray/cert.pem",
               "keyFile": "/etc/xray/key.pem"
             }
-          ]
+          ],
+          "serverName": "sshvpnbandung.vercel.app"
         }
       }
     },
@@ -209,7 +214,8 @@
               "certificateFile": "/etc/xray/cert.pem",
               "keyFile": "/etc/xray/key.pem"
             }
-          ]
+          ],
+          "serverName": "sshvpnbandung.vercel.app"
         },
         "grpcSettings": {
           "serviceName": "trojan-grpc"
