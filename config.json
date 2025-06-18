@@ -1,0 +1,15 @@
+{
+  "inbounds":[
+    {
+      "port":8080,
+      "protocol":"vmess",
+      "settings":{"clients":[{"id":"UUID-GANTI-DISI","alterId":0}]},
+      "streamSettings":{
+        "network":"ws",
+        "wsSettings":{"path":"/vmess"},
+        "security":"none"
+      }
+    }
+  ],
+  "outbounds":[{"protocol":"freedom"}]
+}
